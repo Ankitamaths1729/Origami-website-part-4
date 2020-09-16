@@ -1,0 +1,130 @@
+h1{
+    color:rgb(218,98,133); 
+}
+
+.title{
+    color:rgb(218,98,133); 
+    background-color: blueviolet;
+    display:flex ;
+    justify-content: center;
+}
+
+.body1{
+    margin: 0px;
+    background-color:#f7f2f2;
+    
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding:15px;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight: 400;
+    font-family: cursive, fantasy, serif;
+    color: darkblue;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 40px;
+    justify-content: center;
+}
+.origami {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+    font-family: cursive, fantasy, serif;
+}
+h2 {
+    color: firebrick;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+p i {
+    font-size: 20px;
+    color: mediumseagreen;
+}
+a:hover{
+    color:#FFE502;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+.item{
+    position: relative;
+}
+.item h2{
+    position: absolute;
+    top:50%;
+    left:37%;
+    transform:translate(-100%,-100%);
+    opacity: 0;
+}
+.item:hover h2{
+    opacity:3;
+}
+.item1{
+    position: relative;
+}
+.item1 h2{
+    position: absolute;
+    top:50%;
+    left:45%;
+    transform:translate(-100%,-100%);
+    opacity: 0;
+}
+.item1:hover h2{
+    opacity:3;
+}
+.item2{
+    position: relative;
+}
+.item2 h2{
+    position: absolute;
+    top:50%;
+    left:48%;
+    transform:translate(-100%,-100%);
+    opacity: 0;
+}
+.item2:hover h2{
+    opacity:3;
+}
+.item3{
+    position: relative;
+}
+.item3 h2{
+    position: absolute;
+    top:50%;
+    left:37%;
+    transform:translate(-100%,-100%);
+    opacity: 0;
+}
+.item3:hover h2{
+    opacity:3;
+}
+.item4{
+    position: relative;
+}
+.item4 h2{
+    position: absolute;
+    top:50%;
+    left:37%;
+    transform:translate(-100%,-100%);
+    opacity: 0;
+}
+.item4:hover h2{
+    opacity:3;
+}
+
